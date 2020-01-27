@@ -1,39 +1,5 @@
-tflemi9@mike1 ~]$ cd /
-[tflemi9@mike1 /]$ ls
+
 admin  cgroup  dev   lib         media  net    proc     sbin     srv  usr
 bin    ddnA    etc   lib64       misc   opt    project  scratch  sys  var
 boot   ddnB    home  lost+found  mnt    panfs  root     selinux  tmp  work
-[tflemi9@mike1 /]$ ls -l
-total 268
-drwx--x--x    17 root root  4096 Jul 22  2019 admin
-dr-xr-xr-x.    2 root root  4096 Jul 19  2018 bin
-dr-xr-xr-x.    4 root root  4096 Jul 19  2018 boot
-drwxr-xr-x.    2 root root  4096 Oct 21  2016 cgroup
-drwxr-xr-x     7 root root 20480 Aug  9  2018 ddnA
-drwx--x--x     8 root root 16384 Aug 30  2018 ddnB
-drwxr-xr-x    18 root root  3940 Jan 15 20:29 dev
-drwxr-xr-x.  136 root root 12288 Jan 27 10:39 etc
-drwxr-xr-x  1292 root root 36864 Jan 24 14:07 home
-dr-xr-xr-x.   13 root root  4096 Jul 19  2018 lib
-dr-xr-xr-x.   10 root root 12288 Jul 19  2018 lib64
-drwx------.    2 root root 16384 Jul 19  2018 lost+found
-drwxr-xr-x.    2 root root  4096 Jun 28  2011 media
-drwxr-xr-x.    2 root root  4096 Jan 30  2017 misc
-drwxr-xr-x.    3 root root  4096 Jul 19  2018 mnt
-drwxr-xr-x.    2 root root  4096 Jan 30  2017 net
-drwxr-xr-x.   10 root root  4096 Jan 15 08:52 opt
-drwxr-xr-x     2 root root  4096 Jul 19  2018 panfs
-dr-xr-xr-x   813 root root     0 Jan 15 02:50 proc
-lrwxrwxrwx     1 root root    13 Jul 19  2018 project -> /ddnA/project
-dr-xr-x---.    7 root root  4096 Jan 16 08:27 root
-dr-xr-xr-x.    2 root root 12288 Jul 19  2018 sbin
-lrwxrwxrwx     1 root root     5 Jul 19  2018 scratch -> /work
-drwxr-xr-x.    2 root root  4096 Jul 19  2018 selinux
-drwxr-xr-x.    2 root root  4096 Jun 28  2011 srv
-drwxr-xr-x    13 root root     0 Jan 15 02:50 sys
-drwxrwxrwt.   20 root root 77824 Jan 27 11:10 tmp
-drwxr-xr-x.   15 root root  4096 Jul 19  2018 usr
-drwxr-xr-x.   25 root root  4096 Jul 19  2018 var
-lrwxrwxrwx     1 root root    10 Jul 19  2018 work -> /ddnB/work
-[tflemi9@mike1 /]$ 
 
