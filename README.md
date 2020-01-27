@@ -42,15 +42,15 @@ When using pull requests to submit assignments, make sure you're in the assignme
 
 - LSU VPN (to work from off campus) - Available from TigerWare (Cisco VPN Client)
 
-- [ondemand.mike.hpc.lsu.edu](https://ondemand.mike.hpc.lsu.edu) 
+- [ondemand.mike.hpc.lsu.edu](https://ondemand.mike.hpc.lsu.edu)
 
 ```
-Practice Exercise 
+Practice Exercise
 
 (1) Log on to HPC OnDemand (any problems?)
 (2) Go to Files -> Home Directory
 (3) Look at the header bar at the top. What is the path to your home directory? - /home/harmonp/
-(4) Using the "New File" and "New Dir" buttons at the top, create these 
+(4) Using the "New File" and "New Dir" buttons at the top, create these
     directories and files in your home folder:
   - /home/<yourUserName>/myBiologyClasses - directory
   - /home/<yourUserName>/myBiologyClasses/CellBiology - directory
@@ -73,10 +73,10 @@ Practice Exercise
  - Tab completion
  	- Double tapping tab will list all files with that beginning
  - Scrolling through history
-	
+
 ### Commands related to navigating the filesystem
 
-- `touch filename.txt` will create file  
+- `touch filename.txt` will create file
 - `pwd` - print working directory - or - "where am I?"
 - `ls` - list directory contents
 - `ls -l` - long list
@@ -123,7 +123,7 @@ Practice Exercise
 - `nano filename.txt` - this is actually an entire text editing program (type text like normal)
     - write out is save and ^=control (^O) exit (^X)
 - `wc` - print out the length of a file in lines, words, and characters
-    
+
 ```
 Practice Exercise
 
@@ -134,7 +134,7 @@ Practice Exercise
 (5) View the contents of each file with cat.
 (6) Check the sizes of each file with wc.
 ```
-    
+
 - `echo` - prints something to the screen (or elsewhere, as directed)
 - `>>` - appends to file
     - `echo "some text here" >> myTextFile.txt`
@@ -177,7 +177,17 @@ Practice Exercise
 ```
 Assignment 2
 
+(1) Log on to SuperMike2 using OnDemand (https://ondemand.mike.hpc.lsu.edu/).
+(2) Open a Terminal window (Clusters -> SuperMike-II Shell Access)
+(3) Change directories to the root of the filesystem
+(4) List the contents of the root directory
+(5) Copy and paste these contents into a text file on your local computer.
+(6) If you haven't already, fork the Week 2 repository for this class on GitHub.
+(7) In your fork, create a new file in the Week2Assignments folder (the name of
+  the file should include your name). Then paste the contents of the SuperMike
+  root folder that you listed in step (4).
+(8) Commit this new file.
+(9) Submit a pull request back to the class page with your new file.
 
-
-Complete by 5 PM, next Monday, January 27th.
+Complete before class on Tuesday, January 28th.
 ```
