@@ -1,0 +1,2 @@
+admin  boot    ddnA  dev  home  lib64       media  mnt  opt    proc     root  scratch  srv  tmp  var
+bin    cgroup  ddnB  etc  lib   lost+found  misc   net  panfs  project  sbin  selinux  sys  usr  work
